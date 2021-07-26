@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "react-app",
+    "plugin:prettier/recommended",
+    "plugin:jest/recommended",
+    "prettier/react"
+  ],
+  "plugins": ["prettier", "jest"],
+  "rules": {
+    "jest/valid-expect": "OFF"
+  },
+  "ignorePatterns": "css"
+}

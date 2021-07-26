@@ -1,0 +1,9 @@
+@tailwind base;
+
+@tailwind components;
+
+.calendar-day {
+  @apply w-24+2 h-24+2 my-1 relative border-solid border border-gray-600;
+}
+
+@tailwind utilities;

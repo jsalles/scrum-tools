@@ -1,0 +1,13 @@
+.ErrorBoundary {
+  width: 875px;
+  margin: 70px auto;
+
+  &-headline {
+    font-size: 24px;
+    margin: 16px 0 32px 0;
+  }
+
+  &-paragraph {
+    margin: 0 0 16px 0;
+  }
+}
